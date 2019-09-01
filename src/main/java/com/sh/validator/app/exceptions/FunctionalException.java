@@ -1,4 +1,4 @@
-package com.sh.validator.app;
+package com.sh.validator.app.exceptions;
 
 public class FunctionalException extends Exception {
 
