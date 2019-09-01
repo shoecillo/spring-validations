@@ -1,4 +1,4 @@
-package com.sh.validator.app.controller;
+package com.sh.validator.app.exceptions;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
-import com.sh.validator.app.FunctionalException;
 
 @ControllerAdvice
 public class HandlerExceptions extends ResponseEntityExceptionHandler {
